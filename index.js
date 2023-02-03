@@ -34,17 +34,13 @@ function save() {
 
 let totalPara = document.getElementById("total");
 
-function add() {
-    
+function increTen() {
+    count += 10;
+    countNumber.innerHTML = count;
+}
 
-    // let add = count + count
-    // add.textContent = count;
-    // countNumber.innerHTML = 0;
-    // count = 0;
-    // add.textContent = count;
-    
-    // alert(add)
-    // return add
-    // sum.textContent = totalPara;
+function decreTen() {
+    count -= 10;
+    countNumber.innerHTML = count;
 }
 

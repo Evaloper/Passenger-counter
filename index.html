@@ -10,16 +10,22 @@
 </head>
 
 <body>
-    <h1>People Entered</h1>
-    <h2 id="number-count">0</h2>
-    <div>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+    <div class="main-div">
+        <h1>People Entered</h1>
+        <h2 id="number-count">0</h2>
+        <div>
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+        </div>
+        <div>
+            <button id="add-btn" onclick="increTen()">10X</button>
+            <button id="subtract-btn" onclick="decreTen()">-10X</button>
+        </div>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="para">Previous entries: </p>
+        <p id="total" onclick="total()">Total: </p>
+        <script src="index.js"></script>
     </div>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <p id="para">Previous entries: </p>
-    <p id="total" onclick="total()">Total: </p>
-    <script src="index.js"></script>
 </body>
 
 </html>
